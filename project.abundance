@@ -14,38 +14,11 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "90338754-17b4-4016-bbb6-d141776803e5",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": ""
-                }
-            ],
-            "description": "Connect geometry here to make it available in the next level up. "
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.11591536338546458,
-            "y": 0.2688888888888889,
-            "uniqueID": "f331e595-f469-4fb2-83c9-94d93cd845c5",
             "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Untitled.stl",
-            "type": "STL",
-            "SVGwidth": 10,
-            "repoOwner": "IDAbbott",
-            "repoName": "M4-Clamp"
+            "description": "Connect geometry here to make it available in the next level up. "
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "f331e595-f469-4fb2-83c9-94d93cd845c5",
-            "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
-        }
-    ],
+    "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
