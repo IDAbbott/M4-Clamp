@@ -1,13 +1,37 @@
 {
     "atomType": "Molecule",
-    "name": "M4 Clamp",
+    "name": "M4-Clamp",
     "x": 0,
     "y": 0,
     "uniqueID": "cf01f1ea-530e-45c8-8ffd-f4ac345fdd67",
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "90338754-17b4-4016-bbb6-d141776803e5",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.13983440662373506,
+            "y": 0.26666666666666666,
+            "uniqueID": "79a2f78e-7298-4634-82d5-c6883f4e051f",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Clamp.step",
+            "type": "STEP",
+            "SVGwidth": 10,
+            "repoOwner": "IDAbbott",
+            "repoName": "M4-Clamp"
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
