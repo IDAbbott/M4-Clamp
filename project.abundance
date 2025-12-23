@@ -11,27 +11,9 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "90338754-17b4-4016-bbb6-d141776803e5"
-    },
-    {
-      "atomType": "Import",
-      "x": 0.37783832879200724,
-      "y": 0.4746835443037975,
-      "uniqueID": "id-5",
-      "fileName": "M4_IA_Clamp.scad",
-      "name": "Import",
-      "type": "STEP",
-      "repoOwner": "IDAbbott",
-      "repoName": "M4-Clamp",
-      "SVGwidth": 10
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-5",
-      "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
-    }
-  ],
+  "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
