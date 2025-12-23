@@ -11,9 +11,27 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "90338754-17b4-4016-bbb6-d141776803e5"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2997275204359673,
+      "y": 0.3459915611814346,
+      "uniqueID": "id-7",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-7",
+      "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
