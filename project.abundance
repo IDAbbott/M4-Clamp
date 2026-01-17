@@ -20,13 +20,13 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.09321266968325792,
-      "y": 0.3621052631578947,
+      "x": 0.0995475113122172,
+      "y": 0.36,
       "uniqueID": "id-7",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 390
+          "ioValue": 391
         }
       ]
     },
@@ -154,6 +154,50 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.10904977375565611,
+      "y": 0.10526315789473684,
+      "uniqueID": "id-41",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 404
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.20904977375565612,
+      "y": 0.10526315789473684,
+      "uniqueID": "id-44",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.2995475113122172,
+      "y": 0.19789473684210526,
+      "uniqueID": "id-48",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -163,9 +207,9 @@
       "ap2ID": "id-13"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry2",
       "ap1ID": "id-13",
-      "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
+      "ap2ID": "id-48"
     },
     {
       "ap2Name": "geometry",
@@ -176,6 +220,26 @@
       "ap2Name": "geometry",
       "ap1ID": "id-29",
       "ap2ID": "id-35"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-35",
+      "ap2ID": "id-25"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-41",
+      "ap2ID": "id-44"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-44",
+      "ap2ID": "id-48"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-48",
+      "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
     }
   ],
   "unitsKey": "MM",
