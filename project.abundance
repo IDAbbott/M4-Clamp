@@ -10,26 +10,88 @@
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
-      "uniqueID": "90338754-17b4-4016-bbb6-d141776803e5"
+      "uniqueID": "90338754-17b4-4016-bbb6-d141776803e5",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Circle",
-      "x": 0.2997275204359673,
-      "y": 0.3459915611814346,
+      "x": 0.09321266968325792,
+      "y": 0.3621052631578947,
       "uniqueID": "id-7",
       "ioValues": [
         {
           "name": "diameter",
+          "ioValue": 400
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.19321266968325793,
+      "y": 0.3621052631578947,
+      "uniqueID": "id-13",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.26153846153846155,
+      "y": 0.5747368421052631,
+      "uniqueID": "id-17",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "bigcircle",
+          "currentEquation": "bigcircle"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "bigcircle"
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-7",
+      "ap2ID": "id-13"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-13",
       "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-13",
+      "ap2ID": "id-17"
     }
   ],
   "unitsKey": "MM",
