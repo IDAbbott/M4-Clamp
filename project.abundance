@@ -26,7 +26,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 400
+          "ioValue": 390
         }
       ]
     },
@@ -48,8 +48,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.26153846153846155,
-      "y": 0.5747368421052631,
+      "x": 0.8959276018099548,
+      "y": 0.791578947368421,
       "uniqueID": "id-17",
       "ioValues": [
         {
@@ -75,6 +75,85 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "bigcircle"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.08914027149321267,
+      "y": 0.6210526315789474,
+      "uniqueID": "id-22",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.4257918552036199,
+      "y": 0.6799999999999999,
+      "uniqueID": "id-25",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.20045248868778281,
+      "y": 0.6315789473684211,
+      "uniqueID": "id-29",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.28914027149321264,
+      "y": 0.6210526315789474,
+      "uniqueID": "id-35",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -90,8 +169,13 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-13",
-      "ap2ID": "id-17"
+      "ap1ID": "id-22",
+      "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-29",
+      "ap2ID": "id-35"
     }
   ],
   "unitsKey": "MM",
