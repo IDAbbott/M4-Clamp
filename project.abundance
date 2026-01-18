@@ -396,7 +396,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "cut-cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-22-205-0-0-0-0--20-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20",
+                    "geometry": "cut-cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-22-205-0-0-0-0-60-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -990,7 +990,8 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "z-axis degrees",
@@ -1790,8 +1791,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8266968325791856,
-          "y": 0.47157894736842104,
+          "x": 0.8248868778280544,
+          "y": 0.4568421052631579,
           "uniqueID": "id-1002",
           "ioValues": [
             {
@@ -2211,14 +2212,14 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -20
+              "ioValue": 60
             }
           ]
         },
         {
           "atomType": "Assembly",
-          "x": 0.8283649503161699,
-          "y": 0.4915611814345992,
+          "x": 0.8307692307692307,
+          "y": 0.47578947368421054,
           "uniqueID": "id-260",
           "ioValues": [
             {
@@ -2374,8 +2375,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.5253393665158371,
-      "y": 0.6189473684210527,
+      "x": 0.5149321266968325,
+      "y": 0.6863157894736842,
       "uniqueID": "id-1036",
       "ioValues": [
         {
@@ -2627,11 +2628,6 @@
       "ap2ID": "id-73"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-286",
-      "ap2ID": "id-442"
-    },
-    {
       "ap2Name": "geometry1",
       "ap1ID": "id-286",
       "ap2ID": "id-1060"
@@ -2670,6 +2666,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-1060",
       "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1060",
+      "ap2ID": "id-442"
     },
     {
       "ap2Name": "geometry2",
