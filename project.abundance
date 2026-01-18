@@ -350,14 +350,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4-Clamp",
-          "currentEquation": "M4-Clamp"
+          "ioValue": "M4-EdgeVacuum",
+          "currentEquation": "M4-EdgeVacuum"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4-Clamp"
+      "partName": "M4-EdgeVacuum"
     },
     {
       "atomType": "Fusion",
