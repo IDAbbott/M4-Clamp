@@ -31,36 +31,6 @@
       ]
     },
     {
-      "atomType": "Export",
-      "x": 0.897018970189702,
-      "y": 0.7911392405063291,
-      "uniqueID": "id-17",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "bigcircle",
-          "currentEquation": "bigcircle"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "bigcircle"
-    },
-    {
       "atomType": "Circle",
       "x": 0.024390243902439025,
       "y": 0.9430379746835443,
@@ -126,8 +96,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5691056910569106,
-      "y": 0.7890295358649789,
+      "x": 0.4661246612466125,
+      "y": 0.7784810126582278,
       "uniqueID": "id-48",
       "ioValues": [
         {
@@ -160,11 +130,57 @@
         },
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "move-circle-195.5-0-0-0",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                20
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         },
         {
           "name": "Shape 2",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "circle-190",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         },
         {
           "name": "Shape 3",
@@ -227,8 +243,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6187895212285456,
-      "y": 0.3312236286919831,
+      "x": 0.5438121047877146,
+      "y": 0.3459915611814346,
       "uniqueID": "id-73",
       "ioValues": [
         {
@@ -296,40 +312,6 @@
           "ioValue": null
         }
       ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6738934056007226,
-      "y": 0.5210970464135022,
-      "uniqueID": "id-174",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.5,
-      "y": 0.5,
-      "uniqueID": "id-183",
-      "name": "x + y",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "x + y"
     },
     {
       "atomType": "Difference",
@@ -799,6 +781,195 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8319783197831978,
+      "y": 0.7215189873417721,
+      "uniqueID": "id-442",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4-Clamp",
+          "currentEquation": "M4-Clamp"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4-Clamp"
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.6404697380307136,
+      "y": 0.4852320675105485,
+      "uniqueID": "id-447",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": [
+                  {
+                    "geometry": "cut-cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-22-200-0-0-0-0-20-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  },
+                  {
+                    "geometry": "cut-cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-22-200-0-0-0-0--20-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              },
+              {
+                "geometry": "cut-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    20
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "cut-extrude-circle-201-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-loft-move-circle-195.5-0-0-0-circle-190-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -835,7 +1006,7 @@
     {
       "ap2Name": "Shape 2",
       "ap1ID": "id-48",
-      "ap2ID": "id-174"
+      "ap2ID": "id-447"
     },
     {
       "ap2Name": "geometry2",
@@ -860,7 +1031,7 @@
     {
       "ap2Name": "Shape 1",
       "ap1ID": "id-73",
-      "ap2ID": "id-174"
+      "ap2ID": "id-447"
     },
     {
       "ap2Name": "Shape 4",
@@ -878,11 +1049,6 @@
       "ap2ID": "id-73"
     },
     {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-174",
-      "ap2ID": "id-286"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-286",
       "ap2ID": "90338754-17b4-4016-bbb6-d141776803e5"
@@ -890,7 +1056,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-286",
-      "ap2ID": "id-17"
+      "ap2ID": "id-442"
     },
     {
       "ap2Name": "Shape 2",
@@ -900,6 +1066,11 @@
     {
       "ap2Name": "geometry2",
       "ap1ID": "id-251",
+      "ap2ID": "id-286"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-447",
       "ap2ID": "id-286"
     }
   ],
