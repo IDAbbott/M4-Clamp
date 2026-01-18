@@ -300,7 +300,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "cut-cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-20-0-0-20-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-fuse-fuse-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0--20",
+                "geometry": "cut-cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-22-200-0-0-0-0-20-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-fuse-fuse-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0--20",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -324,7 +324,7 @@
                 "bom": []
               },
               {
-                "geometry": "cut-cut-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-20-0-0--20-fuse-fuse-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0--20",
+                "geometry": "cut-cut-extrude-move-circle-201-0-0-0-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-22-200-0-0-0-0--20-fuse-fuse-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0--20",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -348,7 +348,7 @@
                 "bom": []
               },
               {
-                "geometry": "cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-20-0-0--20-fuse-fuse-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0--20",
+                "geometry": "cut-rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-22-200-0-0-0-0--20-fuse-fuse-move-extrude-circle-185-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0-20-rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0--20",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -478,8 +478,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.21951219512195122,
-      "y": 0.339662447257384,
+      "x": 0.21770551038843725,
+      "y": 0.32911392405063294,
       "uniqueID": "id-104",
       "ioValues": [
         {
@@ -497,14 +497,14 @@
         },
         {
           "name": "zDist",
-          "ioValue": 20
+          "ioValue": 2
         }
       ]
     },
     {
       "atomType": "Rotate",
-      "x": 0.3107497741644083,
-      "y": 0.35654008438818563,
+      "x": 0.3116531165311653,
+      "y": 0.3628691983122363,
       "uniqueID": "id-110",
       "ioValues": [
         {
@@ -528,8 +528,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.13911472448057813,
-      "y": 0.34810126582278483,
+      "x": 0.14272809394760613,
+      "y": 0.34388185654008435,
       "uniqueID": "id-116",
       "ioValues": [
         {
@@ -538,7 +538,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 20
         }
       ]
     },
@@ -551,7 +551,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0-20",
+            "geometry": "rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0-20",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -605,7 +605,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-200-0-20-0-0--20",
+            "geometry": "rotate-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-200-0-2-0-0--20",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -656,14 +656,14 @@
         },
         {
           "name": "height",
-          "ioValue": 20
+          "ioValue": 22
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.3698283649503161,
-      "y": 0.10126582278481013,
+      "x": 0.3685636856368564,
+      "y": 0.09915611814345991,
       "uniqueID": "id-137",
       "ioValues": [
         {
@@ -680,7 +680,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 20
+          "ioValue": 0
         }
       ]
     },
@@ -770,7 +770,8 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "z-axis degrees",
